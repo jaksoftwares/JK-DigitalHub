@@ -26,7 +26,7 @@ const Header = () => {
   };
 
   return (
-    <header className={`fixed top-0 left-0 w-full z-50 transition-all ${isSticky ? "shadow-lg bg-white dark:bg-gray-900" : "bg-transparent"}`}>
+    <header className={`fixed top-0 left-0 w-full z-50 transition-all ${isSticky ? "shadow-lg bg-white dark:bg-gray-900" : "bg-transparent" } `}>
       <div className="max-w-7xl mx-auto px-6 md:px-12 flex justify-between items-center h-16">
         {/* Logo */}
         <Link href="/" className="flex items-center space-x-2">
@@ -45,14 +45,18 @@ const Header = () => {
               onClick={() => setServicesDropdown(!servicesDropdown)}
               className="flex items-center space-x-1 text-gray-800 dark:text-gray-200 hover:text-blue-600 transition"
             >
-              <span>Services</span>
+              <Link href="/services"><span> Services </span></Link>
               <ChevronDown size={18} />
             </button>
             {servicesDropdown && (
               <div className="absolute left-0 mt-2 w-48 bg-white dark:bg-gray-800 shadow-md rounded-lg p-2">
+                <Link href="/services/business-consultancy" className="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-700">Business-Consultancy</Link>
+                <Link href="/services/digital-transformation" className="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-700">Digital Transformation</Link>
                 <Link href="/services/web-development" className="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-700">Web Development</Link>
-                <Link href="/services/seo" className="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-700">SEO</Link>
-                <Link href="/services/marketing" className="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-700">Marketing</Link>
+                <Link href="/services/software-development" className="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-700">Software Development</Link>
+                <Link href="/services/seo-digital-marketing" className="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-700">SEO & Digital Marketing</Link>
+                <Link href="/services/strategic-leadership-business-growth" className="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-700">Strategic Leadership & Business Growth</Link>
+                <Link href="/services/software-development" className="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-700">Software Development</Link>
               </div>
             )}
           </div>

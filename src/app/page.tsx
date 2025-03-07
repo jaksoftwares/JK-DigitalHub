@@ -109,7 +109,7 @@ export default function Home() {
         <h2 className="text-3xl font-bold">Ready to Transform Your Business?</h2>
         <p className="mt-4 text-lg">Let’s discuss how we can take your business to the next level.</p>
         <div className="mt-6 space-x-4">
-          <a href="/contact" className="px-6 py-3 bg-white text-blue-700 font-semibold rounded-lg shadow-md hover:bg-gray-200">
+          <a href="/contact/book-consultation" className="px-6 py-3 bg-white text-blue-700 font-semibold rounded-lg shadow-md hover:bg-gray-200">
             Book a Free Consultation
           </a>
           <a href="/contact" className="px-6 py-3 border border-white rounded-lg shadow-md hover:bg-white hover:text-blue-700">
