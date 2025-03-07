@@ -4,7 +4,13 @@ import { useState } from "react";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { Button } from "@/components/ui/button";
-import { Select, SelectItem } from "@/components/ui/select";
+import {
+  Select,
+  SelectItem,
+  SelectTrigger,
+  SelectValue,
+  SelectContent,
+} from "@/components/ui/select";
 import { Upload } from "lucide-react";
 
 const services = [
@@ -16,7 +22,7 @@ const services = [
 ];
 
 export default function GetQuote() {
-  const [, setSelectedService] = useState("");
+  const [selectedService, setSelectedService] = useState("");
 
   return (
     <div className="max-w-4xl mx-auto p-6 bg-white shadow-lg rounded-lg mt-10">
@@ -35,13 +41,17 @@ export default function GetQuote() {
         {/* Business Name */}
         <Input type="text" placeholder="Business Name (Optional)" />
         {/* Select Service */}
-        <Select onValueChange={setSelectedService}>
-          <SelectItem value="">Select a Service</SelectItem>
-          {services.map((service, index) => (
-            <SelectItem key={index} value={service}>
-              {service}
-            </SelectItem>
-          ))}
+        <Select onValueChange={setSelectedService} value={selectedService}>
+          <SelectTrigger>
+            <SelectValue placeholder="Select a Service" />
+          </SelectTrigger>
+          <SelectContent>
+            {services.map((service, index) => (
+              <SelectItem key={index} value={service}>
+                {service}
+              </SelectItem>
+            ))}
+          </SelectContent>
         </Select>
       </div>
 
