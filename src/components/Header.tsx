@@ -1,23 +1,16 @@
 "use client";
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import Link from "next/link";
 import { Menu, X, ChevronDown, Sun, Moon } from "lucide-react";
 import Image from "next/image";
 
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
-  const [isSticky, setIsSticky] = useState(false);
+
   const [darkMode, setDarkMode] = useState(false);
   const [servicesDropdown, setServicesDropdown] = useState(false);
 
-  // Sticky header on scroll
-  useEffect(() => {
-    const handleScroll = () => {
-      setIsSticky(window.scrollY > 50);
-    };
-    window.addEventListener("scroll", handleScroll);
-    return () => window.removeEventListener("scroll", handleScroll);
-  }, []);
+
 
   // Dark mode toggle (Optional)
   const toggleDarkMode = () => {
@@ -26,7 +19,7 @@ const Header = () => {
   };
 
   return (
-    <header className={`fixed top-0 left-0 w-full z-50 transition-all ${isSticky ? "shadow-lg bg-white dark:bg-gray-900" : "bg-transparent" } `}>
+<header className="fixed top-0 left-0 w-full z-50 shadow-lg bg-white dark:bg-gray-900 transition-all">
       <div className="max-w-7xl mx-auto px-6 md:px-12 flex justify-between items-center h-16">
         {/* Logo */}
         <Link href="/" className="flex items-center space-x-2">

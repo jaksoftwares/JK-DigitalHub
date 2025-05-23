@@ -1,6 +1,8 @@
 "use client"
 
-import { useRouter } from "next/router";
+// import { useRouter } from "next/router";
+import { useParams, useRouter } from "next/navigation";
+
 import { FaFacebook, FaTwitter, FaLinkedin, FaCalendarAlt, FaUserCircle, FaTag, FaArrowLeft } from "react-icons/fa";
 import Image from "next/image";
 
@@ -45,10 +47,11 @@ const blogPosts = [
   },
 ];
 
-const BlogPostPage = () => {
-  const router = useRouter();
-  const { slug } = router.query;
 
+const BlogPostPage = () => {
+  const params = useParams(); // ✅ Use useParams instead
+  const router = useRouter();
+  const { slug } = params; // Get the slug from URL params
   // Find the blog post based on slug
   const blogPost = blogPosts.find((post) => post.slug === slug);
 

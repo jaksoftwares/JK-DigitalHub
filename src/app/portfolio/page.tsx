@@ -1,7 +1,7 @@
 "use client"
 
 import { useState } from "react";
-import { FaGlobe, FaShoppingCart, FaCode, FaUsers, FaStar } from "react-icons/fa";
+import { FaGlobe, FaShoppingCart, FaCode, FaUsers, FaStar, FaPaintBrush, FaWater, FaBook, FaLaptopCode, FaLightbulb, FaLaptop, FaChalkboardTeacher, FaHandsHelping, FaShieldAlt, FaPeopleArrows, FaUniversity, FaIdCard } from "react-icons/fa";
 import Image from "next/image";
 
 const categories = ["All", "Web Development", "eCommerce", "Software Development", "Business Consultancy"];
@@ -19,7 +19,7 @@ const projects = [
   {
     title: "LivingSpot",
     category: "Web Development",
-    description: "A marketplace app for vacant houses near institutions.",
+    description: "A housing marketplace platform for listing and finding vacant rentals near institutions.",
     image: "/projects/livingspot.png",
     link: "/portfolio/livingspot",
     icon: FaGlobe,
@@ -28,7 +28,7 @@ const projects = [
   {
     title: "SmartTraffic AI",
     category: "Software Development",
-    description: "AI-powered traffic management system for urban planning.",
+    description: "An AI-based urban traffic management system simulation using open datasets.",
     image: "/projects/smarttraffic.png",
     link: "/portfolio/smarttraffic",
     icon: FaCode,
@@ -37,13 +37,122 @@ const projects = [
   {
     title: "DDS Consulting Website",
     category: "Business Consultancy",
-    description: "A well-presented business consultancy website with a professional touch.",
+    description: "A professional business consultancy site showcasing digital and operational services.",
     image: "/projects/ddsconsulting.png",
     link: "/portfolio/dds-consulting",
     icon: FaUsers,
     techStack: ["Next.js", "Tailwind CSS", "Firebase"],
   },
+  {
+    title: "JKUAT Find My Lost ID",
+    category: "Civic Tech",
+    description: "A lost-and-found ID recovery platform with STK Push integration and claim system.",
+    image: "/projects/jkuat-lost-id.png",
+    link: "/portfolio/jkuat-lost-id",
+    icon: FaIdCard,
+    techStack: ["Next.js", "Express.js", "Supabase"],
+  },
+  {
+    title: "DIT Website",
+    category: "Education",
+    description: "Institutional website for Dovepeak Institute of Technology with course listings and LMS roadmap.",
+    image: "/projects/dit.png",
+    link: "/portfolio/dit",
+    icon: FaUniversity,
+    techStack: ["Next.js", "Tailwind CSS"],
+  },
+  {
+    title: "ConnectMtaani",
+    category: "Community Platform",
+    description: "A platform supporting community engagement and services for informal sectors.",
+    image: "/projects/connectmtaani.png",
+    link: "/portfolio/connectmtaani",
+    icon: FaPeopleArrows,
+    techStack: ["Next.js", "Node.js", "Tailwind CSS"],
+  },
+  {
+    title: "Lapicure",
+    category: "InsurTech",
+    description: "A digital solution for laptop insurance, helping users protect their tech investments.",
+    image: "/projects/lapicure.png",
+    link: "/portfolio/lapicure",
+    icon: FaShieldAlt,
+    techStack: ["React", "Firebase", "Tailwind CSS"],
+  },
+  {
+    title: "Helpicent",
+    category: "Nonprofit",
+    description: "A volunteer platform supporting donations for underprivileged children in Kenya.",
+    image: "/projects/helpicent.png",
+    link: "/portfolio/helpicent",
+    icon: FaHandsHelping,
+    techStack: ["Next.js", "Tailwind CSS", "Supabase"],
+  },
+  {
+    title: "HighRise School Website",
+    category: "Education",
+    description: "An elegant, responsive website for a private school institution.",
+    image: "/projects/highrise.png",
+    link: "/portfolio/highrise",
+    icon: FaChalkboardTeacher,
+    techStack: ["Next.js", "Firebase", "Tailwind CSS"],
+  },
+  {
+    title: "CompDock",
+    category: "eCommerce",
+    description: "A multi-vendor laptop eCommerce platform for selling and managing tech devices.",
+    image: "/projects/compdock.png",
+    link: "/portfolio/compdock",
+    icon: FaLaptop,
+    techStack: ["Vue.js", "Django", "PostgreSQL"],
+  },
+  {
+    title: "Jasiri",
+    category: "Youth Empowerment",
+    description: "A web platform to help young people pitch entrepreneurial ideas to investors and stakeholders.",
+    image: "/projects/jasiri.png",
+    link: "/portfolio/jasiri",
+    icon: FaLightbulb,
+    techStack: ["Next.js", "Tailwind CSS", "Node.js"],
+  },
+  {
+    title: "DDS Digital Hub",
+    category: "Web Agency",
+    description: "A landing page for a creative digital agency offering development and consulting services.",
+    image: "/projects/ddsdigitalhub.png",
+    link: "/portfolio/dds-digital-hub",
+    icon: FaLaptopCode,
+    techStack: ["Next.js", "Tailwind CSS"],
+  },
+  {
+    title: "StudyRoom",
+    category: "EdTech",
+    description: "A custom writing platform where students can request academic assistance.",
+    image: "/projects/studyroom.png",
+    link: "/portfolio/studyroom",
+    icon: FaBook,
+    techStack: ["React", "Firebase", "Node.js"],
+  },
+  {
+    title: "Tripatite Interiors",
+    category: "Portfolio",
+    description: "A modern, creative website portfolio for an interior design studio.",
+    image: "/projects/tripatite.png",
+    link: "/portfolio/tripatite",
+    icon: FaPaintBrush,
+    techStack: ["Next.js", "Tailwind CSS"],
+  },
+  {
+    title: "WaterCent",
+    category: "Utility Services",
+    description: "Corporate website for a water and gas supply company with service request features.",
+    image: "/projects/watercent.png",
+    link: "/portfolio/watercent",
+    icon: FaWater,
+    techStack: ["Next.js", "Tailwind CSS", "Firebase"],
+  },
 ];
+
 
 const testimonials = [
   {
