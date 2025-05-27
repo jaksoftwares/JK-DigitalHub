@@ -4,6 +4,7 @@ import { useState } from "react";
 import { FaGlobe, FaShoppingCart, FaCode, FaUsers, FaStar, FaPaintBrush, FaWater, FaBook, FaLaptopCode, FaLightbulb, FaLaptop, FaChalkboardTeacher, FaHandsHelping, FaShieldAlt, FaPeopleArrows, FaUniversity, FaIdCard } from "react-icons/fa";
 import Image from "next/image";
 
+
 const categories = ["All", "Web Development", "eCommerce", "Software Development", "Business Consultancy"];
 
 const projects = [
@@ -12,7 +13,7 @@ const projects = [
     category: "eCommerce",
     description: "A powerful multi-vendor marketplace for vehicle and auto spare parts.",
     image: "/projects/autostore.png",
-    link: "/portfolio/autostore",
+    link: "https://autostore-q6v3.vercel.app/",
     icon: FaShoppingCart,
     techStack: ["Next.js", "Tailwind CSS", "MongoDB"],
   },
@@ -21,7 +22,7 @@ const projects = [
     category: "Web Development",
     description: "A housing marketplace platform for listing and finding vacant rentals near institutions.",
     image: "/projects/livingspot.png",
-    link: "/portfolio/livingspot",
+    link: "https://livingspot.vercel.app/",
     icon: FaGlobe,
     techStack: ["React", "Node.js", "PostgreSQL"],
   },
@@ -30,7 +31,7 @@ const projects = [
     category: "Software Development",
     description: "An AI-based urban traffic management system simulation using open datasets.",
     image: "/projects/smarttraffic.png",
-    link: "/portfolio/smarttraffic",
+    link: "https://smarttraffic-ai.vercel.app/",
     icon: FaCode,
     techStack: ["Python", "AI/ML", "TensorFlow"],
   },
@@ -39,7 +40,7 @@ const projects = [
     category: "Business Consultancy",
     description: "A professional business consultancy site showcasing digital and operational services.",
     image: "/projects/ddsconsulting.png",
-    link: "/portfolio/dds-consulting",
+    link: "https://dds-consulting.vercel.app/",
     icon: FaUsers,
     techStack: ["Next.js", "Tailwind CSS", "Firebase"],
   },
@@ -47,8 +48,8 @@ const projects = [
     title: "JKUAT Find My Lost ID",
     category: "Civic Tech",
     description: "A lost-and-found ID recovery platform with STK Push integration and claim system.",
-    image: "/projects/jkuat-lost-id.png",
-    link: "/portfolio/jkuat-lost-id",
+    image: "/projects/jkuatfindid.png",
+    link: "https://jkuatfindmylostid.vercel.app/",
     icon: FaIdCard,
     techStack: ["Next.js", "Express.js", "Supabase"],
   },
@@ -57,7 +58,7 @@ const projects = [
     category: "Education",
     description: "Institutional website for Dovepeak Institute of Technology with course listings and LMS roadmap.",
     image: "/projects/dit.png",
-    link: "/portfolio/dit",
+    link: "https://dit-jak-devs-projects.vercel.app/",
     icon: FaUniversity,
     techStack: ["Next.js", "Tailwind CSS"],
   },
@@ -66,7 +67,7 @@ const projects = [
     category: "Community Platform",
     description: "A platform supporting community engagement and services for informal sectors.",
     image: "/projects/connectmtaani.png",
-    link: "/portfolio/connectmtaani",
+    link: "https://connectmtaani.vercel.app/",
     icon: FaPeopleArrows,
     techStack: ["Next.js", "Node.js", "Tailwind CSS"],
   },
@@ -75,7 +76,7 @@ const projects = [
     category: "InsurTech",
     description: "A digital solution for laptop insurance, helping users protect their tech investments.",
     image: "/projects/lapicure.png",
-    link: "/portfolio/lapicure",
+    link: "https://lapicure.vercel.app/",
     icon: FaShieldAlt,
     techStack: ["React", "Firebase", "Tailwind CSS"],
   },
@@ -84,7 +85,7 @@ const projects = [
     category: "Nonprofit",
     description: "A volunteer platform supporting donations for underprivileged children in Kenya.",
     image: "/projects/helpicent.png",
-    link: "/portfolio/helpicent",
+    link: "https://helpicent.vercel.app/",
     icon: FaHandsHelping,
     techStack: ["Next.js", "Tailwind CSS", "Supabase"],
   },
@@ -93,7 +94,7 @@ const projects = [
     category: "Education",
     description: "An elegant, responsive website for a private school institution.",
     image: "/projects/highrise.png",
-    link: "/portfolio/highrise",
+    link: "https://highrise-school.vercel.app/",
     icon: FaChalkboardTeacher,
     techStack: ["Next.js", "Firebase", "Tailwind CSS"],
   },
@@ -102,7 +103,7 @@ const projects = [
     category: "eCommerce",
     description: "A multi-vendor laptop eCommerce platform for selling and managing tech devices.",
     image: "/projects/compdock.png",
-    link: "/portfolio/compdock",
+    link: "/https://compdock.vercel.app/",
     icon: FaLaptop,
     techStack: ["Vue.js", "Django", "PostgreSQL"],
   },
@@ -111,7 +112,7 @@ const projects = [
     category: "Youth Empowerment",
     description: "A web platform to help young people pitch entrepreneurial ideas to investors and stakeholders.",
     image: "/projects/jasiri.png",
-    link: "/portfolio/jasiri",
+    link: "https://jasiri.vercel.app/",
     icon: FaLightbulb,
     techStack: ["Next.js", "Tailwind CSS", "Node.js"],
   },
@@ -119,8 +120,8 @@ const projects = [
     title: "DDS Digital Hub",
     category: "Web Agency",
     description: "A landing page for a creative digital agency offering development and consulting services.",
-    image: "/projects/ddsdigitalhub.png",
-    link: "/portfolio/dds-digital-hub",
+    image: "/projects/dds.png",
+    link: "https://dds-site.vercel.app/",
     icon: FaLaptopCode,
     techStack: ["Next.js", "Tailwind CSS"],
   },
@@ -138,7 +139,7 @@ const projects = [
     category: "Portfolio",
     description: "A modern, creative website portfolio for an interior design studio.",
     image: "/projects/tripatite.png",
-    link: "/portfolio/tripatite",
+    link: "/https://tripatiteinteriors.vercel.app/",
     icon: FaPaintBrush,
     techStack: ["Next.js", "Tailwind CSS"],
   },
@@ -147,7 +148,7 @@ const projects = [
     category: "Utility Services",
     description: "Corporate website for a water and gas supply company with service request features.",
     image: "/projects/watercent.png",
-    link: "/portfolio/watercent",
+    link: "https://watercent.vercel.app/",
     icon: FaWater,
     techStack: ["Next.js", "Tailwind CSS", "Firebase"],
   },
@@ -179,6 +180,7 @@ const PortfolioPage = () => {
     ? projects
     : projects.filter(project => project.category === selectedCategory);
 
+   const [hoveredIndex, setHoveredIndex] = useState<number | null>(null);
   return (
     <div className="bg-gray-50 text-gray-900">
       {/* Hero Section */}
@@ -208,29 +210,57 @@ const PortfolioPage = () => {
 
       {/* Featured Work */}
       <section className="container mx-auto px-6 py-10">
-        <h2 className="text-3xl font-bold text-center">Featured Projects</h2>
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mt-10">
-          {filteredProjects.map((project, index) => (
-            <a key={index} href={project.link} className="block bg-white shadow-lg rounded-lg hover:shadow-xl transition">
-              <Image src={project.image} alt={project.title}
-              width={100}
-              height={48}              
-              className="w-full h-48 object-cover rounded-t-lg" />
-              <div className="p-6 text-center">
-                <project.icon className="text-blue-600 text-5xl mx-auto" />
-                <h3 className="text-xl font-semibold mt-4">{project.title}</h3>
-                <p className="mt-2 text-gray-600">{project.description}</p>
-                {/* Tech Stack */}
-                <div className="flex justify-center mt-4 space-x-2">
-                  {project.techStack.map((tech, i) => (
-                    <span key={i} className="bg-gray-200 text-gray-800 px-3 py-1 rounded-full text-sm">{tech}</span>
-                  ))}
-                </div>
+      <h2 className="text-3xl font-bold text-center mb-10">Featured Projects</h2>
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+        {filteredProjects.map((project, index) => (
+          <a
+            key={index}
+            href={project.link}
+            target="_blank"
+            rel="noopener noreferrer"
+            className={`block bg-white rounded-lg shadow-md transform transition duration-300 hover:shadow-xl hover:scale-[1.03] focus:shadow-xl focus:scale-[1.03] outline-none`}
+            tabIndex={0}
+            onMouseEnter={() => setHoveredIndex(index)}
+            onMouseLeave={() => setHoveredIndex(null)}
+            onFocus={() => setHoveredIndex(index)}
+            onBlur={() => setHoveredIndex(null)}
+            aria-label={`View project: ${project.title}`}
+          >
+            <div className="relative w-full h-48 rounded-t-lg overflow-hidden">
+              <Image
+                src={project.image}
+                alt={project.title}
+                layout="fill"
+                objectFit="cover"
+                className="rounded-t-lg"
+                priority={index === 0} // prioritize first image
+              />
+            </div>
+            <div className="p-6 text-center">
+              <project.icon
+                className={`text-blue-600 text-5xl mx-auto mb-3 transition-transform ${
+                  hoveredIndex === index ? "scale-110" : ""
+                }`}
+                aria-hidden="true"
+              />
+              <h3 className="text-xl font-semibold">{project.title}</h3>
+              <p className="mt-2 text-gray-600">{project.description}</p>
+              <div className="flex justify-center flex-wrap mt-4 gap-2">
+                {project.techStack.map((tech, i) => (
+                  <span
+                    key={i}
+                    className="bg-gray-200 text-gray-800 px-3 py-1 rounded-full text-sm cursor-default select-none"
+                    title={tech} // tooltip on hover
+                  >
+                    {tech}
+                  </span>
+                ))}
               </div>
-            </a>
-          ))}
-        </div>
-      </section>
+            </div>
+          </a>
+        ))}
+      </div>
+    </section>
 
       {/* Testimonials */}
       <section className="bg-blue-100 py-16">
