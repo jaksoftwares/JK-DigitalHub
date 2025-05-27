@@ -1,154 +1,117 @@
 "use client";
 
-// import { useState } from "react";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { Button } from "@/components/ui/button";
-// import { Calendar } from "@/components/ui/calendar";
-// import { Popover, PopoverContent, PopoverTrigger } from "@/components/ui/popover";
-// import { CalendarDays } from "lucide-react";
-// import { format } from "date-fns";
-// import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
-import { FaPhoneAlt, FaEnvelope, FaMapMarkerAlt, FaFacebook, FaTwitter, FaLinkedin, FaInstagram } from "react-icons/fa";
 
-// const consultationTypes = [
-//   "Business Strategy Consultation",
-//   "Web & Software Development",
-//   "SEO & Digital Marketing",
-//   "Tech Migration & Growth Strategy",
-// ];
+import {
+  FaPhoneAlt,
+  FaEnvelope,
+  FaMapMarkerAlt,
+  FaFacebook,
+  FaTwitter,
+  FaLinkedin,
+  FaInstagram,
+} from "react-icons/fa";
 
 const ContactPage = () => {
-//   const [selectedConsultation, setSelectedConsultation] = useState("");
-//   const [selectedDate, setSelectedDate] = useState<Date>();
-
   return (
-    <div className="bg-gray-100 text-gray-900">
+    <div className="bg-gray-50 text-gray-900">
       {/* Hero Section */}
-      <section className="relative bg-blue-900 text-white py-20 text-center">
+      <section className="relative bg-blue-900 text-white py-24 text-center">
         <div className="container mx-auto px-6">
-          <h1 className="text-5xl font-bold">Contact Us</h1>
-          <p className="mt-4 text-lg text-gray-200">We&apos;d love to hear from you! Reach out to us anytime.</p>
-        </div>
-      </section>
-
-      {/* Contact Info Section */}
-      <section className="container mx-auto px-6 py-12 grid md:grid-cols-3 gap-8 text-center">
-        <div className="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition">
-          <FaPhoneAlt className="text-blue-600 text-4xl mx-auto" />
-          <h3 className="text-xl font-semibold mt-4">Call Us</h3>
-          <p className="text-gray-700 mt-2">+123 456 7890</p>
-        </div>
-        <div className="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition">
-          <FaEnvelope className="text-blue-600 text-4xl mx-auto" />
-          <h3 className="text-xl font-semibold mt-4">Email Us</h3>
-          <p className="text-gray-700 mt-2">contact@yourdomain.com</p>
-        </div>
-        <div className="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition">
-          <FaMapMarkerAlt className="text-blue-600 text-4xl mx-auto" />
-          <h3 className="text-xl font-semibold mt-4">Visit Us</h3>
-          <p className="text-gray-700 mt-2">123 Business Street, City, Country</p>
-        </div>
-      </section>
-
-      {/* Contact Form */}
-      <section className="container mx-auto px-6 py-12">
-        <div className="bg-white p-8 rounded-lg shadow-md max-w-2xl mx-auto">
-          <h2 className="text-3xl font-bold text-center mb-6">Send Us a Message</h2>
-          <form className="space-y-4">
-            <div>
-              <label className="block text-gray-700 font-semibold">Full Name</label>
-              <Input type="text" placeholder="Enter your name" required />
-            </div>
-            <div>
-              <label className="block text-gray-700 font-semibold">Email Address</label>
-              <Input type="email" placeholder="Enter your email" required />
-            </div>
-            <div>
-              <label className="block text-gray-700 font-semibold">Message</label>
-              <Textarea rows={4} placeholder="Write your message..." />
-            </div>
-            <Button className="w-full bg-blue-600 text-white py-3 font-bold hover:bg-blue-800">
-              Send Message
-            </Button>
-          </form>
-        </div>
-      </section>
-
-      {/* Book a Free Consultation
-      <section className="container mx-auto px-6 py-12">
-        <div className="max-w-4xl mx-auto p-6 bg-white shadow-lg rounded-lg">
-          <h1 className="text-3xl font-bold text-center text-gray-800 mb-6">Book a Free Consultation</h1>
-          <p className="text-center text-gray-600 mb-6">
-            Schedule a free session to discuss your business needs and explore how we can help you grow.
+          <h1 className="text-5xl font-extrabold tracking-tight">Contact Us</h1>
+          <p className="mt-4 text-lg text-gray-200">
+            We&apos;d love to hear from you! Reach out to us anytime.
           </p>
+        </div>
+      </section>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-            <Input type="text" placeholder="Your Name" required />
-            <Input type="email" placeholder="Your Email" required />
-            <Input type="text" placeholder="Business Name (Optional)" />
-            <Select onValueChange={setSelectedConsultation} value={selectedConsultation}>
-              <SelectTrigger>
-                <SelectValue placeholder="Select Consultation Type" />
-              </SelectTrigger>
-              <SelectContent>
-                {consultationTypes.map((type, index) => (
-                  <SelectItem key={index} value={type}>
-                    {type}
-                  </SelectItem>
-                ))}
-              </SelectContent>
-            </Select>
+     {/* Contact Form + Info Combined */}
+<section className="bg-white py-16">
+  <div className="container mx-auto px-6">
+    <div className="bg-gray-100 p-10 rounded-xl shadow-md flex flex-col lg:flex-row gap-10">
+      {/* Form */}
+      <div className="w-full lg:w-2/3">
+        <h2 className="text-3xl font-bold mb-6">Send Us a Message</h2>
+        <form className="space-y-5">
+          <div>
+            <label className="block text-gray-700 font-medium mb-1">Full Name</label>
+            <Input type="text" placeholder="Enter your name" required />
           </div>
-
-          <div className="mt-6">
-            <label className="block text-gray-700 font-medium mb-2">Select a Date</label>
-            <Popover>
-              <PopoverTrigger asChild>
-                <Button variant="outline" className="w-full justify-start text-left font-normal">
-                  <CalendarDays className="w-5 h-5 mr-2 text-gray-500" />
-                  {selectedDate ? format(selectedDate, "PPP") : <span>Pick a date</span>}
-                </Button>
-              </PopoverTrigger>
-              <PopoverContent className="w-auto p-0">
-                <Calendar mode="single" selected={selectedDate || undefined} onSelect={setSelectedDate} initialFocus />
-              </PopoverContent>
-            </Popover>
+          <div>
+            <label className="block text-gray-700 font-medium mb-1">Email Address</label>
+            <Input type="email" placeholder="Enter your email" required />
           </div>
-
-          <div className="mt-6">
-            <Textarea placeholder="Any specific details or questions?" rows={4} />
+          <div>
+            <label className="block text-gray-700 font-medium mb-1">Message</label>
+            <Textarea rows={4} placeholder="Write your message..." />
           </div>
+          <Button className="w-full bg-blue-600 text-white py-3 font-bold hover:bg-blue-700 transition">
+            Send Message
+          </Button>
+        </form>
+      </div>
 
-          <div className="mt-6 text-center">
-            <Button className="w-full bg-green-600 text-white py-3 font-bold hover:bg-green-700">
-              Confirm Booking
-            </Button>
+      {/* Contact Info */}
+      <div className="w-full lg:w-1/3 space-y-6">
+        <h3 className="text-2xl font-semibold text-gray-800">Contact Information</h3>
+        <div className="flex items-start gap-4">
+          <FaPhoneAlt className="text-blue-600 text-xl mt-1" />
+          <div>
+            <p className="font-medium text-gray-700">Call Us</p>
+            <p className="text-gray-600">+254 714703374</p>
           </div>
         </div>
-      </section> */}
+        <div className="flex items-start gap-4">
+          <FaEnvelope className="text-blue-600 text-xl mt-1" />
+          <div>
+            <p className="font-medium text-gray-700">Email Us</p>
+            <p className="text-gray-600">josephamuyunzu1978@gmail.com</p>
+          </div>
+        </div>
+        <div className="flex items-start gap-4">
+          <FaMapMarkerAlt className="text-blue-600 text-xl mt-1" />
+          <div>
+            <p className="font-medium text-gray-700">Visit Us</p>
+            <p className="text-gray-600">off-thika road Juja</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
 
-      {/* Map Section */}
-      <section className="container mx-auto px-6 py-12">
-        <div className="h-64 bg-gray-300 rounded-lg overflow-hidden">
+
+      {/* Map */}
+      <section className="container mx-auto px-6 py-16">
+        <div className="h-[400px] rounded-xl overflow-hidden shadow-md">
           <iframe
-            className="w-full h-full"
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3151.835434509368!2d144.95373631531664!3d-37.816279379751594!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad65d5df4f5d5e3%3A0xe5f6a68a1c0b5f6b!2sMelbourne%20CBD%2C%20Victoria%2C%20Australia!5e0!3m2!1sen!2sus!4v1649920138495!5m2!1sen!2sus"
+            className="w-full h-full border-0"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3989.0782087455714!2d37.010848175738786!3d-1.10361193545534!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f475f31591ec5%3A0x372bedd06ee6a9ee!2sCk%20plaza!5e0!3m2!1sen!2ske!4v1748353472561!5m2!1sen!2ske"
             allowFullScreen
             loading="lazy"
           ></iframe>
         </div>
       </section>
 
-      {/* Social Media Section */}
-      <section className="container mx-auto px-6 py-12 text-center">
+      {/* Social Media */}
+      <section className="container mx-auto px-6 py-16 text-center">
         <h2 className="text-3xl font-bold">Connect with Us</h2>
-        <p className="text-gray-700 mt-2">Follow us on social media for updates</p>
-        <div className="flex justify-center gap-6 mt-4 text-2xl">
-          <FaFacebook className="text-blue-600 hover:text-blue-800" />
-          <FaTwitter className="text-blue-400 hover:text-blue-600" />
-          <FaLinkedin className="text-blue-700 hover:text-blue-900" />
-          <FaInstagram className="text-pink-500 hover:text-pink-700" />
+        <p className="text-gray-600 mt-2">Follow us on social media for the latest updates</p>
+        <div className="flex justify-center gap-6 mt-6 text-3xl">
+          <a href="#" aria-label="Facebook">
+            <FaFacebook className="text-blue-600 hover:text-blue-800 transition" />
+          </a>
+          <a href="#" aria-label="Twitter">
+            <FaTwitter className="text-blue-400 hover:text-blue-600 transition" />
+          </a>
+          <a href="#" aria-label="LinkedIn">
+            <FaLinkedin className="text-blue-700 hover:text-blue-900 transition" />
+          </a>
+          <a href="#" aria-label="Instagram">
+            <FaInstagram className="text-pink-500 hover:text-pink-700 transition" />
+          </a>
         </div>
       </section>
     </div>
