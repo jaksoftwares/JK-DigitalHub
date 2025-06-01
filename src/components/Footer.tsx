@@ -1,7 +1,7 @@
 "use client";
 import Link from "next/link";
 import Image from "next/image";
-import { Facebook, Twitter, Linkedin, Github, Mail, Phone, MapPin } from "lucide-react";
+import { Facebook, Linkedin, Github, Mail, Phone, MapPin } from "lucide-react";
 
 const Footer = () => {
   return (
@@ -46,11 +46,11 @@ const Footer = () => {
           <ul className="mt-4 space-y-2">
             <li className="flex items-center space-x-2">
               <Mail size={18} />
-              <span>contact@jkdigitalhub.com</span>
+              <span>josephamuyunzu1978@gmail.com</span>
             </li>
             <li className="flex items-center space-x-2">
               <Phone size={18} />
-              <span>+123 456 7890</span>
+              <span>+254 714703374</span>
             </li>
             <li className="flex items-center space-x-2">
               <MapPin size={18} />
@@ -60,10 +60,10 @@ const Footer = () => {
 
           {/* Social Media Links */}
           <div className="flex space-x-4 mt-4">
-            <Link href="#" className="text-gray-400 hover:text-blue-400"><Facebook size={24} /></Link>
-            <Link href="#" className="text-gray-400 hover:text-blue-400"><Twitter size={24} /></Link>
-            <Link href="#" className="text-gray-400 hover:text-blue-400"><Linkedin size={24} /></Link>
-            <Link href="#" className="text-gray-400 hover:text-blue-400"><Github size={24} /></Link>
+            <Link href="https://www.facebook.com/jose.kiri.39/" className="text-gray-400 hover:text-blue-400"><Facebook size={24} /></Link>
+            {/* <Link href="#" className="text-gray-400 hover:text-blue-400"><Twitter size={24} /></Link> */}
+            <Link href="https://www.linkedin.com/in/joseph-kirika-4a821b278/" className="text-gray-400 hover:text-blue-400"><Linkedin size={24} /></Link>
+            <Link href="https://github.com/jaksoftwares" className="text-gray-400 hover:text-blue-400"><Github size={24} /></Link>
           </div>
         </div>
       </div>
