@@ -12,6 +12,7 @@ import {
   FaTwitter,
   FaLinkedin,
   FaInstagram,
+  FaGithub,
 } from "react-icons/fa";
 
 const ContactPage = () => {
@@ -20,7 +21,7 @@ const ContactPage = () => {
       {/* Hero Section */}
       <section className="relative bg-blue-900 text-white py-24 text-center">
         <div className="container mx-auto px-6">
-          <h1 className="text-5xl font-extrabold tracking-tight">Contact Us</h1>
+          <h1 className="text-5xl font-extrabold tracking-tight">Contact Me</h1>
           <p className="mt-4 text-lg text-gray-200">
             We&apos;d love to hear from you! Reach out to us anytime.
           </p>
@@ -59,21 +60,21 @@ const ContactPage = () => {
         <div className="flex items-start gap-4">
           <FaPhoneAlt className="text-blue-600 text-xl mt-1" />
           <div>
-            <p className="font-medium text-gray-700">Call Us</p>
+            <p className="font-medium text-gray-700">Call Me</p>
             <p className="text-gray-600">+254 714703374</p>
           </div>
         </div>
         <div className="flex items-start gap-4">
           <FaEnvelope className="text-blue-600 text-xl mt-1" />
           <div>
-            <p className="font-medium text-gray-700">Email Us</p>
+            <p className="font-medium text-gray-700">Email Me</p>
             <p className="text-gray-600">josephamuyunzu1978@gmail.com</p>
           </div>
         </div>
         <div className="flex items-start gap-4">
           <FaMapMarkerAlt className="text-blue-600 text-xl mt-1" />
           <div>
-            <p className="font-medium text-gray-700">Visit Us</p>
+            <p className="font-medium text-gray-700">Visit Me</p>
             <p className="text-gray-600">off-thika road Juja</p>
           </div>
         </div>
@@ -96,24 +97,53 @@ const ContactPage = () => {
       </section>
 
       {/* Social Media */}
-      <section className="container mx-auto px-6 py-16 text-center">
-        <h2 className="text-3xl font-bold">Connect with Us</h2>
-        <p className="text-gray-600 mt-2">Follow us on social media for the latest updates</p>
-        <div className="flex justify-center gap-6 mt-6 text-3xl">
-          <a href="#" aria-label="Facebook">
-            <FaFacebook className="text-blue-600 hover:text-blue-800 transition" />
-          </a>
-          <a href="#" aria-label="Twitter">
-            <FaTwitter className="text-blue-400 hover:text-blue-600 transition" />
-          </a>
-          <a href="#" aria-label="LinkedIn">
-            <FaLinkedin className="text-blue-700 hover:text-blue-900 transition" />
-          </a>
-          <a href="#" aria-label="Instagram">
-            <FaInstagram className="text-pink-500 hover:text-pink-700 transition" />
-          </a>
-        </div>
-      </section>
+<section className="container mx-auto px-6 py-16 text-center">
+  <h2 className="text-3xl font-bold">Connect with Me</h2>
+  <p className="text-gray-600 mt-2">Reach out to me  on social media for the latest updates</p>
+  <div className="flex justify-center gap-6 mt-6 text-3xl">
+    <a
+      href="https://www.facebook.com/jose.kiri.39/"
+      target="_blank"
+      rel="noopener noreferrer"
+      aria-label="Facebook"
+    >
+      <FaFacebook className="text-blue-600 hover:text-blue-800 transition" />
+    </a>
+    <a
+      href="https://x.com/KirikaJoseph1"
+      target="_blank"
+      rel="noopener noreferrer"
+      aria-label="Twitter (X)"
+    >
+      <FaTwitter className="text-blue-400 hover:text-blue-600 transition" />
+    </a>
+    <a
+      href="https://www.linkedin.com/in/joseph-kirika-4a821b278/"
+      target="_blank"
+      rel="noopener noreferrer"
+      aria-label="LinkedIn"
+    >
+      <FaLinkedin className="text-blue-700 hover:text-blue-900 transition" />
+    </a>
+    <a
+      href="https://www.instagram.com/joseph_praise1978/"
+      target="_blank"
+      rel="noopener noreferrer"
+      aria-label="Instagram"
+    >
+      <FaInstagram className="text-pink-500 hover:text-pink-700 transition" />
+    </a>
+    <a
+  href="https://github.com/jaksoftwares"
+  target="_blank"
+  rel="noopener noreferrer"
+  aria-label="GitHub"
+>
+  <FaGithub className="text-gray-800 hover:text-black transition" />
+</a>
+  </div>
+</section>
+
     </div>
   );
 };

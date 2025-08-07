@@ -79,7 +79,7 @@ const BlogPage = () => {
       {/* Hero Section */}
       <section className="relative bg-blue-900 text-white py-20 text-center">
         <div className="container mx-auto px-6">
-          <h1 className="text-4xl md:text-5xl font-bold">Our Blog</h1>
+          <h1 className="text-4xl md:text-5xl font-bold">My Blogs</h1>
           <p className="text-lg mt-4">Insights, tips, and strategies for business and tech growth.</p>
         </div>
       </section>

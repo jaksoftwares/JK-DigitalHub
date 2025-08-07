@@ -22,7 +22,7 @@ const WebDevelopment = () => {
 
       {/* Why Choose Us */}
       <section className="container mx-auto px-6 py-16 text-center">
-        <h2 className="text-3xl font-bold">Why Choose Our Web Development Services?</h2>
+        <h2 className="text-3xl font-bold">What I bring on Board to Your Website</h2>
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 mt-8">
           <div className="p-6 bg-white shadow-lg rounded-lg">
             <FaRocket className="text-indigo-600 text-4xl mx-auto" />
@@ -45,7 +45,7 @@ const WebDevelopment = () => {
       {/* Our Services */}
       <section className="bg-gray-100 py-16">
         <div className="container mx-auto px-6 text-center">
-          <h2 className="text-3xl font-bold">Our Web Development Services</h2>
+          <h2 className="text-3xl font-bold">Web Development Services I Offer</h2>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mt-10">
             {[
               { icon: FaCode, title: "Custom Websites", desc: "Tailored web solutions for businesses, startups, and enterprises." },
@@ -68,19 +68,23 @@ const WebDevelopment = () => {
       {/* Featured Work / Portfolio */}
       <section id="portfolio" className="py-16 bg-white">
         <div className="container mx-auto px-6 text-center">
-          <h2 className="text-3xl font-bold">Our Featured Work</h2>
+          <h2 className="text-3xl font-bold">Some of the Featured Work</h2>
           <p className="text-lg text-gray-600 mt-2">Check out some of our best projects.</p>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mt-10">
             {[
-              { img: "/images/portfolio1.jpg", title: "E-Commerce Store" },
-              { img: "/images/portfolio2.jpg", title: "Corporate Website" },
-              { img: "/images/portfolio3.jpg", title: "Startup Landing Page" },
+              { img: "/autostore.png", title: "E-Commerce Store" },
+              { img: "/dds.png", title: "Corporate Website" },
+              { img: "/projects/livingspot.png", title: "Startup Landing Page" },
             ].map((project, index) => (
-              <div key={index} className="bg-gray-100 shadow-lg rounded-lg overflow-hidden">
-                <Image src={project.img} alt={project.title}
-                width={100}
-                height={60}
-                className="w-full h-60 object-cover" />
+              <div key={index} className="bg-gray-100  rounded-lg overflow-hidden">
+                <div className="relative w-full h-60">
+                  <Image
+                    src={project.img}
+                    alt={project.title}
+                    fill
+                    className="object-contain"
+                  />
+                </div>
                 <div className="p-4">
                   <h3 className="text-lg font-semibold">{project.title}</h3>
                 </div>
@@ -95,9 +99,9 @@ const WebDevelopment = () => {
         <h2 className="text-3xl font-bold">Flexible Pricing Plans</h2>
         <div className="grid md:grid-cols-3 gap-8 mt-10">
           {[
-            { name: "Basic Website", price: "$299", features: ["5 Pages", "Responsive Design", "SEO Optimization"] },
-            { name: "Business Website", price: "$799", features: ["10+ Pages", "CMS Integration", "Performance Optimization"] },
-            { name: "E-Commerce Store", price: "$1499", features: ["Online Store", "Payment Integration", "Advanced Features"] },
+            { name: "Basic Website", price: "Ksh 15,000", features: ["5 Pages", "Responsive Design", "SEO Optimization"] },
+            { name: "Business Website", price: "Ksh 25,000", features: ["10+ Pages", "CMS Integration", "Performance Optimization"] },
+            { name: "E-Commerce Store", price: "Ksh 35,000", features: ["Online Store", "Payment Integration", "Advanced Features"] },
           ].map((plan, index) => (
             <div key={index} className="p-8 bg-white shadow-lg rounded-lg">
               <h3 className="text-xl font-bold">{plan.name}</h3>
@@ -125,7 +129,7 @@ const WebDevelopment = () => {
               Request a Free Quote
             </a>
             <a href="/portfolio" className="bg-indigo-600 px-6 py-3 rounded-lg font-semibold hover:bg-indigo-700">
-              View Our Work
+              View My Work
             </a>
           </div>
         </div>

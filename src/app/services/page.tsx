@@ -10,15 +10,15 @@ const services = [
 ];
 
 const successStories = [
-  { quote: "Joseph's SEO strategies skyrocketed our traffic, bringing in 3x more leads!", client: "ABC Marketing Agency" },
+  { quote: "Joseph's SEO strategies skyrocketed our traffic, bringing in 3x more leads!", client: "Tyna Marketing Agency" },
   { quote: "The eCommerce store they built increased our sales by 200% in just 3 months!", client: "Kellian AutoGarage" },
   { quote: "Their consultancy helped us transition into a digital-first business model.", client: "JCRM Church" },
 ];
 
 const faqs = [
-  { question: "What industries do you specialize in?", answer: "We work with businesses across all industries, from startups to enterprises." },
-  { question: "How long does a typical project take?", answer: "Project timelines vary, but we aim for efficiency while maintaining quality." },
-  { question: "Do you offer ongoing support after project completion?", answer: "Yes! We offer maintenance and support plans to keep your systems running smoothly." },
+  { question: "What industries do you specialize in?", answer: "I work with businesses across all industries, from startups to enterprises." },
+  { question: "How long does a typical project take?", answer: "Project timelines vary, but I aim for efficiency while maintaining quality." },
+  { question: "Do you offer ongoing support after project completion?", answer: "Yes! I offer maintenance and support plans to keep your systems running smoothly." },
 ];
 
 const ServicesPage = () => {
@@ -27,14 +27,14 @@ const ServicesPage = () => {
       {/* Hero Section */}
       <section className="relative bg-blue-900 text-white py-20 text-center">
         <div className="container mx-auto px-6">
-          <h1 className="text-4xl md:text-5xl font-bold">Our Services</h1>
+          <h1 className="text-4xl md:text-5xl font-bold">My Services</h1>
           <p className="text-lg mt-4">Elevate your business with our top-tier digital solutions.</p>
         </div>
       </section>
 
       {/* Services Grid */}
       <section className="container mx-auto px-6 py-16">
-        <h2 className="text-3xl font-bold text-center">Explore Our Expertise</h2>
+        <h2 className="text-3xl font-bold text-center">Explore My Expertise</h2>
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mt-10">
           {services.map((service, index) => (
             <a key={index} href={service.link} className="block p-8 bg-white shadow-lg rounded-lg hover:shadow-xl transition">
@@ -49,7 +49,7 @@ const ServicesPage = () => {
       {/* Why Choose Us? */}
       <section className="bg-blue-100 py-16">
         <div className="container mx-auto px-6 text-center">
-          <h2 className="text-3xl font-bold">Why Choose Us?</h2>
+          <h2 className="text-3xl font-bold">What Sets Me Apart?</h2>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mt-10">
             <div className="flex flex-col items-center">
               <FaCheckCircle className="text-blue-600 text-5xl" />
