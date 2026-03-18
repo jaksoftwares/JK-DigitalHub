@@ -2,7 +2,7 @@
 import { useState } from "react";
 import Link from "next/link";
 import { Menu, X, ChevronDown, Sun, Moon } from "lucide-react";
-import Image from "next/image";
+// import Image from "next/image";
 
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -23,7 +23,7 @@ const Header = () => {
       <div className="max-w-7xl mx-auto px-6 md:px-12 flex justify-between items-center h-16">
         {/* Logo */}
         <Link href="/" className="flex items-center space-x-2">
-          <Image src="/logo.png" alt="JK Digital Hub" width={40} height={40} />
+          {/* <Image src="/logo.png" alt="JK Digital Hub" width={40} height={40} /> */}
           <span className="text-2xl font-bold text-blue-600 dark:text-white">JK Digital Hub</span>
         </Link>
 

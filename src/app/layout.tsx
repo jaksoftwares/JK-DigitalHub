@@ -7,8 +7,15 @@ import Footer from "../components/Footer";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "JK Digital Hub | Empowering Businesses with Digital Solutions",
-  description: "Providing business consultancy, web development, SEO, marketing, and technical solutions for business growth.",
+  title: "Joseph Kirika | Empowering Businesses with Digital Solutions",
+  description: "Providing software solutions, business consultancy, web development, SEO, marketing, and technical solutions for business growth.",
+  openGraph: {
+    images: ["/joseph.jpg"],
+  },
+  twitter: {
+    card: "summary_large_image",
+    images: ["/joseph.jpg"],
+  },
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
