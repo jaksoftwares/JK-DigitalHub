@@ -20,7 +20,7 @@ const WebDevelopment = () => {
         </div>
       </section>
 
-      {/* Why Choose Us */}
+      {/* Why Choose Me */}
       <section className="container mx-auto px-6 py-16 text-center">
         <h2 className="text-3xl font-bold">What I bring on Board to Your Website</h2>
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 mt-8">
@@ -42,7 +42,7 @@ const WebDevelopment = () => {
         </div>
       </section>
 
-      {/* Our Services */}
+      {/* My Services */}
       <section className="bg-gray-100 py-16">
         <div className="container mx-auto px-6 text-center">
           <h2 className="text-3xl font-bold">Web Development Services I Offer</h2>
@@ -69,7 +69,7 @@ const WebDevelopment = () => {
       <section id="portfolio" className="py-16 bg-white">
         <div className="container mx-auto px-6 text-center">
           <h2 className="text-3xl font-bold">Some of the Featured Work</h2>
-          <p className="text-lg text-gray-600 mt-2">Check out some of our best projects.</p>
+          <p className="text-lg text-gray-600 mt-2">Check out some of my best projects.</p>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mt-10">
             {[
               { img: "/autostore.png", title: "E-Commerce Store" },

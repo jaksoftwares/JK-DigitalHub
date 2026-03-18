@@ -10,22 +10,22 @@ import { useState } from "react";
 import { Quote } from "lucide-react"; 
 const testimonials = [
   {
-    quote: "Working with Joseph transformed our church’s operations. The JCRM Church Web App is user-friendly and reliable.",
+    quote: "Working with Joseph transformed my church’s operations. The JCRM Church Web App is user-friendly and reliable.",
     client: "Apostle Arthur - JCRM Team",
     avatar: "/apostle-arthur.jpg",
   },
   {
-    quote: "The Kellian AutoGarage platform Joseph developed helped us streamline bookings and customer management.",
+    quote: "The Kellian AutoGarage platform Joseph developed helped me streamline bookings and customer management.",
     client: "Douglas Akhonya - Kellian AutoGarage",
     avatar: "/douglas-akhonya.jpg",
   },
   {
-    quote: "Joseph’s work on the JKUAT Social Robotics Lab site greatly improved our outreach and student engagement.",
+    quote: "Joseph’s work on the JKUAT Social Robotics Lab site greatly improved my outreach and student engagement.",
     client: "Eunice Njeri - JKUAT Social Robotics Lab",
     avatar: "/eunice-njeri.jpg",
   },
   {
-    quote: "The Kids Beyond Limit project was expertly handled, with a smooth, vibrant website that resonates with our community.",
+    quote: "The Kids Beyond Limit project was expertly handled, with a smooth, vibrant website that resonates with my community.",
     client: "Victor Siero - Kids Beyond Limit",
     avatar: "/victor-siero.jpg",
   },
@@ -260,7 +260,7 @@ export default function Home() {
 
   <div className="relative z-10 max-w-3xl mx-auto">
     <h2 className="text-4xl font-extrabold tracking-tight">Ready to Transform Your Business?</h2>
-    <p className="mt-4 text-lg text-blue-100">Let’s discuss how we can take your brand to the next level — together.</p>
+    <p className="mt-4 text-lg text-blue-100">Let’s discuss how I can take your brand to the next level — together.</p>
 
     <div className="mt-8 flex flex-col sm:flex-row justify-center items-center gap-4">
       <a

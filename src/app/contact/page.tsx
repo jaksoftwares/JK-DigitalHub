@@ -23,7 +23,7 @@ const ContactPage = () => {
         <div className="container mx-auto px-6">
           <h1 className="text-5xl font-extrabold tracking-tight">Contact Me</h1>
           <p className="mt-4 text-lg text-gray-200">
-            We&apos;d love to hear from you! Reach out to us anytime.
+            I&apos;d love to hear from you! Reach out to me anytime.
           </p>
         </div>
       </section>
@@ -34,7 +34,7 @@ const ContactPage = () => {
     <div className="bg-gray-100 p-10 rounded-xl shadow-md flex flex-col lg:flex-row gap-10">
       {/* Form */}
       <div className="w-full lg:w-2/3">
-        <h2 className="text-3xl font-bold mb-6">Send Us a Message</h2>
+        <h2 className="text-3xl font-bold mb-6">Send Me a Message</h2>
         <form className="space-y-5">
           <div>
             <label className="block text-gray-700 font-medium mb-1">Full Name</label>

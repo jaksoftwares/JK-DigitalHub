@@ -16,7 +16,7 @@ export default function TermsAndConditions() {
       <section className="mt-10">
         <h2 className="text-2xl font-semibold text-gray-800">1. Introduction</h2>
         <p className="text-gray-600 mt-3">
-          Welcome to <strong>Dovepeak Digital Solutions (DDS)</strong>. By accessing and using our website, services, 
+          Welcome to <strong>Dovepeak Digital Solutions (DDS)</strong>. By accessing and using my website, services, 
           and applications, you agree to comply with these Terms & Conditions. If you do not agree, please discontinue use.
         </p>
       </section>
@@ -24,9 +24,9 @@ export default function TermsAndConditions() {
       {/* User Obligations */}
       <section className="mt-10">
         <h2 className="text-2xl font-semibold text-gray-800">2. User Responsibilities</h2>
-        <p className="text-gray-600 mt-3">By using our services, you agree that you will:</p>
+        <p className="text-gray-600 mt-3">By using my services, you agree that you will:</p>
         <ul className="list-disc pl-5 mt-3 text-gray-600">
-          <li>Use our services only for lawful purposes.</li>
+          <li>Use my services only for lawful purposes.</li>
           <li>Not engage in fraudulent, abusive, or harmful activities.</li>
           <li>Provide accurate and up-to-date information when required.</li>
           <li>Respect the intellectual property rights of DDS and third parties.</li>
@@ -47,10 +47,10 @@ export default function TermsAndConditions() {
       <section className="mt-10">
         <h2 className="text-2xl font-semibold text-gray-800">4. Limitation of Liability</h2>
         <p className="text-gray-600 mt-3">
-          DDS is not responsible for any direct, indirect, incidental, or consequential damages resulting from the use of our services.
+          DDS is not responsible for any direct, indirect, incidental, or consequential damages resulting from the use of my services.
         </p>
         <p className="text-gray-600 mt-3">
-          We do not guarantee uninterrupted or error-free service and are not liable for any disruptions.
+          I do not guarantee uninterrupted or error-free service and are not liable for any disruptions.
         </p>
       </section>
 
@@ -58,7 +58,7 @@ export default function TermsAndConditions() {
       <section className="mt-10">
         <h2 className="text-2xl font-semibold text-gray-800">5. Third-Party Services & Links</h2>
         <p className="text-gray-600 mt-3">
-          Our website may contain links to third-party websites or services. We do not endorse or take responsibility for 
+          My website may contain links to third-party websites or services. I do not endorse or take responsibility for 
           the content, security, or practices of these external sites.
         </p>
       </section>
@@ -68,7 +68,7 @@ export default function TermsAndConditions() {
         <h2 className="text-2xl font-semibold text-gray-800">6. Termination</h2>
         <p className="text-gray-600 mt-3">
           DDS reserves the right to terminate or suspend user access if there is a violation of these terms, fraudulent 
-          activity, or misuse of our services.
+          activity, or misuse of my services.
         </p>
       </section>
 
@@ -86,7 +86,7 @@ export default function TermsAndConditions() {
         <h2 className="text-2xl font-semibold text-gray-800">8. Changes to These Terms</h2>
         <p className="text-gray-600 mt-3">
           DDS reserves the right to update or modify these Terms & Conditions at any time. Changes will be posted on this 
-          page, and continued use of our services implies acceptance.
+          page, and continued use of my services implies acceptance.
         </p>
       </section>
 
@@ -94,7 +94,7 @@ export default function TermsAndConditions() {
       <section className="mt-10 bg-blue-50 p-6 rounded-lg">
         <h2 className="text-2xl font-semibold text-gray-800">9. Acceptance of Terms</h2>
         <p className="text-gray-600 mt-3">
-          By using our services, you confirm that you have read and agreed to these Terms & Conditions.
+          By using my services, you confirm that you have read and agreed to these Terms & Conditions.
         </p>
         <div className="flex items-center mt-4">
           <input
@@ -122,9 +122,9 @@ export default function TermsAndConditions() {
 
       {/* Contact Section */}
       <section className="mt-10">
-        <h2 className="text-2xl font-semibold text-gray-800">10. Contact Us</h2>
+        <h2 className="text-2xl font-semibold text-gray-800">10. Contact Me</h2>
         <p className="text-gray-600 mt-3">
-          If you have any questions regarding these Terms & Conditions, you can contact us at:
+          If you have any questions regarding these Terms & Conditions, you can contact me at:
         </p>
         <ul className="list-disc pl-5 mt-3 text-gray-600">
           <li>Email: <a href="mailto:legal@dovepeakdigital.com" className="text-blue-600">legal@dovepeakdigital.com</a></li>

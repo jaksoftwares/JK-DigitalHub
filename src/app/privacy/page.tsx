@@ -16,7 +16,7 @@ export default function PrivacyPolicy() {
       <section className="mt-10">
         <h2 className="text-2xl font-semibold text-gray-800">1. Introduction</h2>
         <p className="text-gray-600 mt-3">
-          Welcome to <strong>Dovepeak Digital Solutions (DDS)</strong>. We are committed to protecting your privacy
+          Welcome to <strong>Dovepeak Digital Solutions (DDS)</strong>. I am committed to protecting your privacy
           and ensuring that your personal data is handled securely and responsibly.
         </p>
       </section>
@@ -35,17 +35,17 @@ export default function PrivacyPolicy() {
           <li>The right to file a complaint with a data protection authority.</li>
         </ul>
         <p className="text-gray-600 mt-3">
-          To exercise any of these rights, please contact us at{" "}
+          To exercise any of these rights, please contact me at{" "}
           <a href="mailto:privacy@dovepeakdigital.com" className="text-blue-600 font-semibold">
             privacy@dovepeakdigital.com
           </a>.
         </p>
       </section>
 
-      {/* Information We Collect */}
+      {/* Information I Collect */}
       <section className="mt-10">
-        <h2 className="text-2xl font-semibold text-gray-800">3. Information We Collect</h2>
-        <p className="text-gray-600 mt-3">We may collect the following types of data:</p>
+        <h2 className="text-2xl font-semibold text-gray-800">3. Information I Collect</h2>
+        <p className="text-gray-600 mt-3">I may collect the following types of data:</p>
         <ul className="list-disc pl-5 mt-3 text-gray-600">
           <li><strong>Personal Data:</strong> Name, email, phone number, business details.</li>
           <li><strong>Usage Data:</strong> IP address, device information, website activity.</li>
@@ -53,12 +53,12 @@ export default function PrivacyPolicy() {
         </ul>
       </section>
 
-      {/* How We Use Your Information */}
+      {/* How I Use Your Information */}
       <section className="mt-10">
-        <h2 className="text-2xl font-semibold text-gray-800">4. How We Use Your Information</h2>
+        <h2 className="text-2xl font-semibold text-gray-800">4. How I Use Your Information</h2>
         <p className="text-gray-600 mt-3">Your information is used for:</p>
         <ul className="list-disc pl-5 mt-3 text-gray-600">
-          <li>Providing and improving our services.</li>
+          <li>Providing and improving my services.</li>
           <li>Communicating updates and marketing materials.</li>
           <li>Ensuring compliance with legal obligations.</li>
         </ul>
@@ -68,7 +68,7 @@ export default function PrivacyPolicy() {
       <section className="mt-10">
         <h2 className="text-2xl font-semibold text-gray-800">5. Cookies & Tracking</h2>
         <p className="text-gray-600 mt-3">
-          We use cookies to improve user experience and analyze website traffic. You can manage your cookie
+          I use cookies to improve user experience and analyze website traffic. You can manage your cookie
           preferences in your browser settings.
         </p>
       </section>
@@ -77,7 +77,7 @@ export default function PrivacyPolicy() {
       <section className="mt-10 bg-gray-100 p-6 rounded-lg">
         <h2 className="text-2xl font-semibold text-gray-800">6. User Consent</h2>
         <p className="text-gray-600 mt-3">
-          By using our services, you agree to this Privacy Policy. If you do not agree, please refrain from using our
+          By using my services, you agree to this Privacy Policy. If you do not agree, please refrain from using my
           website. You may withdraw consent at any time.
         </p>
         <div className="flex items-center mt-4">
@@ -106,9 +106,9 @@ export default function PrivacyPolicy() {
 
       {/* Contact Section */}
       <section className="mt-10">
-        <h2 className="text-2xl font-semibold text-gray-800">7. Contact Us</h2>
+        <h2 className="text-2xl font-semibold text-gray-800">7. Contact Me</h2>
         <p className="text-gray-600 mt-3">
-          If you have any questions about this Privacy Policy, you can contact us at:
+          If you have any questions about this Privacy Policy, you can contact me at:
         </p>
         <ul className="list-disc pl-5 mt-3 text-gray-600">
           <li>Email: <a href="mailto:privacy@dovepeakdigital.com" className="text-blue-600">privacy@dovepeakdigital.com</a></li>

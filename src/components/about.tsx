@@ -48,7 +48,7 @@ export default function AboutSection() {
           </p>
 
           <p className="mt-3 text-lg text-gray-700 leading-relaxed">
-            I care about clean code, smart systems, and helping people bridge the gap between tech and strategy. Currently, I lead at <span className="font-semibold text-green-700">Dovepeak Digital</span>, where we drive transformation through technology and insight.
+            I care about clean code, smart systems, and helping people bridge the gap between tech and strategy. Currently, I lead at <span className="font-semibold text-green-700">Dovepeak Digital</span>, where I drive transformation through technology and insight.
           </p>
 
           {/* Tags */}

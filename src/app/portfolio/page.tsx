@@ -157,17 +157,17 @@ const projects = [
 
 const testimonials = [
   {
-    quote: "Dovepeak Digital Solutions transformed our online presence and increased conversions!",
+    quote: "Dovepeak Digital Solutions transformed my online presence and increased conversions!",
     client: "John K., CEO of TechWave",
     rating: 5,
   },
   {
-    quote: "Their eCommerce solution helped us scale our sales significantly.",
+    quote: "Their eCommerce solution helped me scale my sales significantly.",
     client: "Sarah M., Founder of AutoSpare Hub",
     rating: 5,
   },
   {
-    quote: "The team provided an outstanding software solution that optimized our processes.",
+    quote: "The team provided an outstanding software solution that optimized my processes.",
     client: "Michael B., COO of SmartTech",
     rating: 5,
   },
@@ -187,7 +187,7 @@ const PortfolioPage = () => {
       <section className="relative bg-blue-900 text-white py-20 text-center">
         <div className="container mx-auto px-6">
           <h1 className="text-4xl md:text-5xl font-bold">My Portfolio</h1>
-          <p className="text-lg mt-4">Discover the projects that define our excellence.</p>
+          <p className="text-lg mt-4">Discover the projects that define my excellence.</p>
         </div>
       </section>
 
@@ -265,7 +265,7 @@ const PortfolioPage = () => {
       {/* Testimonials */}
       <section className="bg-blue-100 py-16">
         <div className="container mx-auto px-6 text-center">
-          <h2 className="text-3xl font-bold">What Our Clients Say</h2>
+          <h2 className="text-3xl font-bold">What My Clients Say</h2>
           <div className="mt-10 space-y-6">
             {testimonials.map((testimonial, index) => (
               <div key={index} className="bg-white p-6 rounded-lg shadow-md max-w-lg mx-auto">
@@ -285,7 +285,7 @@ const PortfolioPage = () => {
       {/* Call to Action */}
       <section className="bg-blue-900 text-white py-16 text-center">
         <h2 className="text-3xl font-bold">Let&apos;s Build Something Amazing</h2>
-        <p className="mt-4 text-lg">Contact us today and bring your vision to life.</p>
+        <p className="mt-4 text-lg">Contact me today and bring your vision to life.</p>
         <a href="/contact" className="mt-6 bg-white text-blue-900 px-6 py-3 rounded-lg font-semibold shadow-md hover:bg-gray-100">
           Start Your Project
         </a>

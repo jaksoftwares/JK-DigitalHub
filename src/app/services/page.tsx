@@ -10,9 +10,9 @@ const services = [
 ];
 
 const successStories = [
-  { quote: "Joseph's SEO strategies skyrocketed our traffic, bringing in 3x more leads!", client: "Tyna Marketing Agency" },
-  { quote: "The eCommerce store they built increased our sales by 200% in just 3 months!", client: "Kellian AutoGarage" },
-  { quote: "Their consultancy helped us transition into a digital-first business model.", client: "JCRM Church" },
+  { quote: "Joseph's SEO strategies skyrocketed my traffic, bringing in 3x more leads!", client: "Tyna Marketing Agency" },
+  { quote: "The eCommerce store they built increased my sales by 200% in just 3 months!", client: "Kellian AutoGarage" },
+  { quote: "Their consultancy helped me transition into a digital-first business model.", client: "JCRM Church" },
 ];
 
 const faqs = [
@@ -28,7 +28,7 @@ const ServicesPage = () => {
       <section className="relative bg-blue-900 text-white py-20 text-center">
         <div className="container mx-auto px-6">
           <h1 className="text-4xl md:text-5xl font-bold">My Services</h1>
-          <p className="text-lg mt-4">Elevate your business with our top-tier digital solutions.</p>
+          <p className="text-lg mt-4">Elevate your business with my top-tier digital solutions.</p>
         </div>
       </section>
 
@@ -46,7 +46,7 @@ const ServicesPage = () => {
         </div>
       </section>
 
-      {/* Why Choose Us? */}
+      {/* Why Choose Me? */}
       <section className="bg-blue-100 py-16">
         <div className="container mx-auto px-6 text-center">
           <h2 className="text-3xl font-bold">What Sets Me Apart?</h2>
@@ -59,12 +59,12 @@ const ServicesPage = () => {
             <div className="flex flex-col items-center">
               <FaUsers className="text-blue-600 text-5xl" />
               <h3 className="text-xl font-semibold mt-4">Client-Focused Approach</h3>
-              <p className="mt-2 text-gray-600">We tailor solutions to meet your unique business needs.</p>
+              <p className="mt-2 text-gray-600">I tailor solutions to meet your unique business needs.</p>
             </div>
             <div className="flex flex-col items-center">
               <FaLightbulb className="text-blue-600 text-5xl" />
               <h3 className="text-xl font-semibold mt-4">Innovative Solutions</h3>
-              <p className="mt-2 text-gray-600">We integrate the latest technologies to ensure efficiency and growth.</p>
+              <p className="mt-2 text-gray-600">I integrate the latest technologies to ensure efficiency and growth.</p>
             </div>
           </div>
         </div>
@@ -101,7 +101,7 @@ const ServicesPage = () => {
       {/* Call to Action */}
       <section className="bg-blue-900 text-white py-16 text-center">
         <h2 className="text-3xl font-bold">Ready to Transform Your Business?</h2>
-        <p className="mt-4 text-lg">Contact us today and let’s build something great together.</p>
+        <p className="mt-4 text-lg">Contact me today and let’s build something great together.</p>
         <a href="/contact" className="mt-6 bg-white text-blue-900 px-6 py-3 rounded-lg font-semibold shadow-md hover:bg-gray-100">
           Get in Touch Today
         </a>

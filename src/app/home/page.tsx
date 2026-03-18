@@ -89,8 +89,8 @@ export default function Home() {
           <p className="mt-4 text-lg text-gray-600">Real feedback from those I’ve worked with.</p>
           <div className="mt-10 flex flex-wrap justify-center gap-8">
             {[
-              { quote: "Working with Joseph transformed our business. His SEO strategy alone tripled our traffic!", client: "Client Name" },
-              { quote: "Dovepeak Digital Solutions built an outstanding system for our church. We are now fully online!", client: "JCRM Team" },
+              { quote: "Working with Joseph transformed my business. His SEO strategy alone tripled my traffic!", client: "Client Name" },
+              { quote: "Dovepeak Digital Solutions built an outstanding system for my church. I am now fully online!", client: "JCRM Team" },
             ].map((testimonial, index) => (
               <div key={index} className="bg-white p-6 rounded-lg shadow-md w-80 hover:shadow-lg transition">
                 <p className="italic text-gray-600">{testimonial.quote}</p>
@@ -107,7 +107,7 @@ export default function Home() {
       {/* Call to Action */}
       <section className="bg-blue-700 text-white py-20 text-center">
         <h2 className="text-3xl font-bold">Ready to Transform Your Business?</h2>
-        <p className="mt-4 text-lg">Let’s discuss how we can take your business to the next level.</p>
+        <p className="mt-4 text-lg">Let’s discuss how I can take your business to the next level.</p>
         <div className="mt-6 space-x-4">
           <a href="/contact" className="px-6 py-3 bg-white text-blue-700 font-semibold rounded-lg shadow-md hover:bg-gray-200">
             Book a Free Consultation

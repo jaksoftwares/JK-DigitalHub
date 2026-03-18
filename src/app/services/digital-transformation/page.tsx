@@ -43,8 +43,8 @@ export default function DigitalTransformation() {
       {/* Services Offered */}
       <section className="py-16 bg-gray-100 px-6">
         <div className="max-w-5xl mx-auto text-center">
-          <h2 className="text-3xl font-bold text-gray-800">Our Digital Transformation Services</h2>
-          <p className="mt-4 text-gray-600">We offer tailored solutions to help businesses transition seamlessly.</p>
+          <h2 className="text-3xl font-bold text-gray-800">My Digital Transformation Services</h2>
+          <p className="mt-4 text-gray-600">I offer tailored solutions to help businesses transition seamlessly.</p>
           <div className="mt-8 grid grid-cols-1 md:grid-cols-2 gap-6">
             {[
               { title: "Business Process Automation", desc: "Automate workflows for efficiency." },

@@ -22,9 +22,9 @@ const StrategicLeadership = () => {
         </div>
       </section>
 
-      {/* Why Choose Us? */}
+      {/* Why Choose Me? */}
       <section className="container mx-auto px-6 py-16 text-center">
-        <h2 className="text-3xl font-bold">Why Choose Our Leadership & Growth Services?</h2>
+        <h2 className="text-3xl font-bold">Why Choose My Leadership & Growth Services?</h2>
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 mt-8">
           {[
             { icon: FaLightbulb, title: "Visionary Insights", desc: "Helping you craft a clear and actionable strategic vision." },
@@ -40,10 +40,10 @@ const StrategicLeadership = () => {
         </div>
       </section>
 
-      {/* Our Services */}
+      {/* My Services */}
       <section className="bg-gray-100 py-16">
         <div className="container mx-auto px-6 text-center">
-          <h2 className="text-3xl font-bold">Our Strategic Leadership Services</h2>
+          <h2 className="text-3xl font-bold">My Strategic Leadership Services</h2>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mt-10">
             {[
               { icon: FaBalanceScale, title: "Business Strategy Consulting", desc: "Aligning leadership with market trends and business goals." },
@@ -131,7 +131,7 @@ const StrategicLeadership = () => {
       <section className="bg-green-900 text-white py-16 text-center">
         <h2 className="text-3xl font-bold">Unlock Your Business Potential</h2>
         <a href="/contact" className="mt-6 bg-white text-green-900 px-6 py-3 rounded-lg font-semibold shadow-md hover:bg-gray-100">
-          Contact Us Today
+          Contact Me Today
         </a>
       </section>
     </div>

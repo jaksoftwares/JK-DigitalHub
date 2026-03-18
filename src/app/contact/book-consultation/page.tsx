@@ -37,7 +37,7 @@ export default function BookConsultation() {
         Book a Free Consultation
       </h1>
       <p className="text-center text-gray-600 mb-6">
-        Schedule a free session to discuss your business needs and explore how we can help you grow.
+        Schedule a free session to discuss your business needs and explore how I can help you grow.
       </p>
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6">

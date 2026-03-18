@@ -30,7 +30,7 @@ export default function GetQuote() {
         Get a Quote
       </h1>
       <p className="text-center text-gray-600 mb-6">
-        Fill out the form below, and we’ll get back to you with a customized quote for your needs.
+        Fill out the form below, and I’ll get back to you with a customized quote for your needs.
       </p>
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6">

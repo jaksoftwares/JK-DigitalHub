@@ -7,7 +7,7 @@ const SeoDigitalMarketing = () => {
       <section className="relative bg-blue-900 text-white py-20 text-center">
         <div className="container mx-auto px-6">
           <h1 className="text-4xl md:text-5xl font-bold">Boost Your Business with Powerful SEO & Digital Marketing</h1>
-          <p className="text-lg mt-4">We drive traffic, increase engagement, and maximize conversions.</p>
+          <p className="text-lg mt-4">I drive traffic, increase engagement, and maximize conversions.</p>
           <div className="mt-6 flex justify-center gap-4">
             <a href="/contact" className="bg-white text-blue-900 px-6 py-3 rounded-lg font-semibold shadow-md hover:bg-gray-100">
               Get Started
@@ -19,14 +19,14 @@ const SeoDigitalMarketing = () => {
         </div>
       </section>
 
-      {/* Why Choose Us */}
+      {/* Why Choose Me */}
       <section className="container mx-auto px-6 py-16 text-center">
-        <h2 className="text-3xl font-bold">Why Choose Our SEO & Digital Marketing Services?</h2>
+        <h2 className="text-3xl font-bold">Why Choose My SEO & Digital Marketing Services?</h2>
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 mt-8">
           <div className="p-6 bg-white shadow-lg rounded-lg">
             <FaRocket className="text-blue-600 text-4xl mx-auto" />
             <h3 className="font-semibold text-lg mt-4">Proven Results</h3>
-            <p className="mt-2 text-gray-600">We have successfully increased rankings and engagement for businesses worldwide.</p>
+            <p className="mt-2 text-gray-600">I have successfully increased rankings and engagement for businesses worldwide.</p>
           </div>
           <div className="p-6 bg-white shadow-lg rounded-lg">
             <FaSearch className="text-blue-600 text-4xl mx-auto" />
@@ -36,7 +36,7 @@ const SeoDigitalMarketing = () => {
           <div className="p-6 bg-white shadow-lg rounded-lg">
             <FaChartLine className="text-blue-600 text-4xl mx-auto" />
             <h3 className="font-semibold text-lg mt-4">Data-Driven Growth</h3>
-            <p className="mt-2 text-gray-600">We use analytics, A/B testing, and performance tracking for the best results.</p>
+            <p className="mt-2 text-gray-600">I use analytics, A/B testing, and performance tracking for the best results.</p>
           </div>
           <div className="p-6 bg-white shadow-lg rounded-lg">
             <FaBullhorn className="text-blue-600 text-4xl mx-auto" />
@@ -46,10 +46,10 @@ const SeoDigitalMarketing = () => {
         </div>
       </section>
 
-      {/* Our Services */}
+      {/* My Services */}
       <section className="bg-gray-100 py-16">
         <div className="container mx-auto px-6 text-center">
-          <h2 className="text-3xl font-bold">Our SEO & Digital Marketing Services</h2>
+          <h2 className="text-3xl font-bold">My SEO & Digital Marketing Services</h2>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mt-10">
             {[
               { icon: FaSearch, title: "SEO Optimization", desc: "Boost your rankings with keyword optimization, on-page & off-page SEO." },
@@ -98,7 +98,7 @@ const SeoDigitalMarketing = () => {
       <section className="bg-blue-900 text-white py-16 text-center">
         <div className="container mx-auto px-6">
           <h2 className="text-3xl font-bold">Ready to Boost Your Business?</h2>
-          <p className="text-lg mt-4">Let’s increase your visibility and revenue with our expert SEO & digital marketing services.</p>
+          <p className="text-lg mt-4">Let’s increase your visibility and revenue with my expert SEO & digital marketing services.</p>
           <div className="mt-6 flex justify-center gap-4">
             <a href="/contact" className="bg-white text-blue-900 px-6 py-3 rounded-lg font-semibold shadow-md hover:bg-gray-100">
               Book a Free Consultation

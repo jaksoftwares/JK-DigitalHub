@@ -12,9 +12,9 @@ export default function BusinessConsulting() {
         </button>
       </section>
 
-      {/* Why Choose Us */}
+      {/* Why Choose Me */}
       <section className="py-16 px-6 max-w-5xl mx-auto">
-        <h2 className="text-3xl font-bold text-center mb-8">Why Work With Us?</h2>
+        <h2 className="text-3xl font-bold text-center mb-8">Why Work With Me?</h2>
         <div className="grid md:grid-cols-2 gap-6">
           {[
             { title: "Market Insights", desc: "In-depth research for competitive advantage.", icon: <FaChartBar className="text-5xl text-green-600" /> },
@@ -91,8 +91,8 @@ export default function BusinessConsulting() {
         <h2 className="text-3xl font-bold text-center mb-8">What Clients Say</h2>
         <div className="grid md:grid-cols-2 gap-6">
           {[
-            { quote: "Joseph’s consulting helped us scale quickly and establish a strong market presence!", author: "Business Owner" },
-            { quote: "With Dovepeak Digital Solutions, we transformed into a tech-driven company!", author: "Corporate Client" }
+            { quote: "Joseph’s consulting helped me scale quickly and establish a strong market presence!", author: "Business Owner" },
+            { quote: "With Dovepeak Digital Solutions, I transformed into a tech-driven company!", author: "Corporate Client" }
           ].map((testimonial, index) => (
             <div key={index} className="bg-white p-6 shadow-md rounded-lg">
               <p className="text-gray-700 italic">“{testimonial.quote}”</p>

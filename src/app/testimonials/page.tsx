@@ -11,21 +11,21 @@ const testimonials = [
     role: "CEO, TechCorp",
     image: "/images/john-doe.jpg",
     feedback:
-      "Dovepeak Digital Solutions transformed our business with their cutting-edge web solutions. Their professionalism and attention to detail are unmatched!",
+      "Dovepeak Digital Solutions transformed my business with their cutting-edge web solutions. Their professionalism and attention to detail are unmatched!",
   },
   {
     name: "Sarah Johnson",
     role: "Founder, Creative Minds",
     image: "/images/sarah-johnson.jpg",
     feedback:
-      "I highly recommend DDS! The team was incredible, delivering a sleek and high-performing website that exceeded our expectations.",
+      "I highly recommend DDS! The team was incredible, delivering a sleek and high-performing website that exceeded my expectations.",
   },
   {
     name: "Michael Smith",
     role: "Marketing Director, FastTrack",
     image: "/images/michael-smith.jpg",
     feedback:
-      "From start to finish, working with DDS was a fantastic experience. They provided strategic insights and executed our project flawlessly!",
+      "From start to finish, working with DDS was a fantastic experience. They provided strategic insights and executed my project flawlessly!",
   },
 ];
 
@@ -35,8 +35,8 @@ export default function TestimonialsPage() {
   return (
     <div className="max-w-6xl mx-auto p-8">
       {/* Page Header */}
-      <h1 className="text-4xl font-bold text-center text-gray-800">What Our Clients Say</h1>
-      <p className="text-center text-gray-600 mt-3">Real feedback from businesses we’ve worked with.</p>
+      <h1 className="text-4xl font-bold text-center text-gray-800">What My Clients Say</h1>
+      <p className="text-center text-gray-600 mt-3">Real feedback from businesses I’ve worked with.</p>
 
       {/* Testimonials Section */}
       <div className="mt-10 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -94,7 +94,7 @@ export default function TestimonialsPage() {
       {/* Call to Action */}
       <div className="mt-12 text-center">
         <h2 className="text-2xl font-semibold text-gray-800">Want to share your experience?</h2>
-        <p className="text-gray-600 mt-3">We’d love to hear from you! Leave us a review.</p>
+        <p className="text-gray-600 mt-3">I’d love to hear from you! Leave me a review.</p>
         <a
           href="/contact"
           className="mt-5 inline-block bg-blue-600 text-white px-6 py-3 font-semibold rounded-lg hover:bg-blue-700 transition"

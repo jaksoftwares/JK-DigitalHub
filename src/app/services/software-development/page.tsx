@@ -14,15 +14,15 @@ const SoftwareDevelopment = () => {
               Get a Free Consultation
             </a>
             <a href="#portfolio" className="bg-blue-600 px-6 py-3 rounded-lg font-semibold hover:bg-blue-700">
-              View Our Projects
+              View My Projects
             </a>
           </div>
         </div>
       </section>
 
-      {/* Why Choose Us? */}
+      {/* Why Choose Me? */}
       <section className="container mx-auto px-6 py-16 text-center">
-        <h2 className="text-3xl font-bold">Why Choose Our Software Development Services?</h2>
+        <h2 className="text-3xl font-bold">Why Choose My Software Development Services?</h2>
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 mt-8">
           {[
             { icon: FaRocket, title: "High Performance", desc: "Optimized for speed, efficiency, and seamless user experience." },
@@ -38,10 +38,10 @@ const SoftwareDevelopment = () => {
         </div>
       </section>
 
-      {/* Our Software Development Services */}
+      {/* My Software Development Services */}
       <section className="bg-gray-100 py-16">
         <div className="container mx-auto px-6 text-center">
-          <h2 className="text-3xl font-bold">Our Software Development Services</h2>
+          <h2 className="text-3xl font-bold">My Software Development Services</h2>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mt-10">
             {[
               { icon: FaLaptopCode, title: "Custom Software", desc: "Fully tailored solutions to meet your business requirements." },
@@ -64,8 +64,8 @@ const SoftwareDevelopment = () => {
       {/* Technology Stack */}
       <section className="py-16">
         <div className="container mx-auto px-6 text-center">
-          <h2 className="text-3xl font-bold">Our Technology Stack</h2>
-          <p className="text-lg text-gray-600 mt-2">We use modern, reliable, and scalable technologies.</p>
+          <h2 className="text-3xl font-bold">My Technology Stack</h2>
+          <p className="text-lg text-gray-600 mt-2">I use modern, reliable, and scalable technologies.</p>
           <div className="flex flex-wrap justify-center gap-8 mt-10">
             {["React.js", "Next.js", "Node.js", "Django", "Flutter", "AWS", "MongoDB", "PostgreSQL"].map((tech, index) => (
               <span key={index} className="bg-blue-100 text-blue-900 px-4 py-2 rounded-lg font-semibold shadow">
@@ -79,7 +79,7 @@ const SoftwareDevelopment = () => {
       {/* Featured Projects */}
       <section id="portfolio" className="py-16 bg-white">
         <div className="container mx-auto px-6 text-center">
-          <h2 className="text-3xl font-bold">Our Featured Work</h2>
+          <h2 className="text-3xl font-bold">My Featured Work</h2>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mt-10">
             {[
               { img: "/images/project1.jpg", title: "SaaS Application" },
@@ -130,7 +130,7 @@ const SoftwareDevelopment = () => {
       <section className="bg-blue-900 text-white py-16 text-center">
         <h2 className="text-3xl font-bold">Ready to Build Your Next Software?</h2>
         <a href="/contact" className="mt-6 bg-white text-blue-900 px-6 py-3 rounded-lg font-semibold shadow-md hover:bg-gray-100">
-          Contact Us Today
+          Contact Me Today
         </a>
       </section>
     </div>

@@ -9,8 +9,8 @@ const Footer = () => {
       <div className="max-w-7xl mx-auto px-6 md:px-12 grid grid-cols-1 md:grid-cols-4 gap-8">
         {/* Branding Section */}
         <div>
-          <Image src="/logo.png" alt="JK Digital Hub" width={50} height={50} />
-          <h2 className="text-xl font-semibold text-white mt-2">JK Digital Hub</h2>
+          <Image src="/jk-logo.png" alt="Joseph Kirika Logo" width={56} height={56} className="rounded-xl shadow-md mb-4" />
+          <h2 className="text-xl font-semibold text-white mt-2">Joseph Kirika</h2>
           <p className="mt-2 text-sm text-gray-400">
             Empowering businesses through digital solutions, strategic consultancy, and top-tier web services.
           </p>
@@ -70,7 +70,7 @@ const Footer = () => {
 
       {/* Newsletter Subscription */}
       <div className="mt-8 border-t border-gray-700 pt-6 text-center">
-        <h3 className="text-lg font-semibold text-white">Subscribe to Our Newsletter</h3>
+        <h3 className="text-lg font-semibold text-white">Subscribe to My Newsletter</h3>
         <p className="text-sm text-gray-400 mt-1">Stay updated with the latest insights and trends.</p>
         <form className="mt-4 flex justify-center">
           <input type="email" placeholder="Enter your email" className="p-2 w-64 rounded-l-lg border border-gray-700 bg-gray-800 text-gray-300 focus:outline-none" />
@@ -80,7 +80,7 @@ const Footer = () => {
 
       {/* Copyright Section */}
       <div className="mt-6 text-center text-sm text-gray-500">
-        © {new Date().getFullYear()} JK Digital Hub. All rights reserved.
+        © {new Date().getFullYear()} Joseph Kirika. All rights reserved.
       </div>
     </footer>
   );
